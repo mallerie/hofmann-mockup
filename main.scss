@@ -97,9 +97,9 @@ h2 {
 
 #hero-phone {
   max-width: 90%;
-  height: 82%;
+  height: 81%;
   position: relative;
-  top: 81px;
+  top: 89px;
 }
 
 #app-buttons-wrapper {
@@ -260,4 +260,30 @@ button:hover {
   background: $yellow;
   border: 2px solid $yellow;
   }
+
+/////////// WHAT PEOPLE SAY ///////////
+
+#start-selling {
+  height: 50vh;
+  background: $yellow;
+  padding: 2em;
+  h3 {
+    margin: .5em 0;
+  }
+  input {
+    display: block;
+    margin: 3em auto;
+    box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.48);
+    height: 3em;
+    width: 19em;
+    border: none;
+    border-radius: 0.25em;
+  }
+  button {
+    display: block;
+    margin: auto;
+    background: black;
+    color: white;
+  }
+}
 
