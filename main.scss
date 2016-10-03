@@ -131,7 +131,7 @@ h3 {
 
 .sub-heading {
   text-align: center;
-  width: 58%;
+  width: 46%;
   margin: auto;
 }
 
@@ -210,6 +210,54 @@ h3 {
     vertical-align: top;
   }
   li {
+    // display: inline-block;
   }
 }
+
+.products-col-4 {
+  width: 20%;
+  // margin: 0 3%;
+  display: inline-block;
+  .results-col-title {
+    margin: 1em 0;
+  }
+  ul {
+    min-width: 254px;
+  }
+  .product-circles {
+    width: 80%;
+    height: auto;
+    vertical-align: top;
+  }
+  .product-circles:hover {
+    width: 75%;
+    // vertical-align: top;
+    box-shadow: 0px 1px 16px 2px rgba(0,0,0,0.53);
+    border-radius: 100%;
+  }
+  li:nth-child(4) {
+    min-height: 2em;
+  }
+}
+
+#recent-products {
+  padding: 8vh 0;
+  ul {
+    text-align: center;
+  }
+}
+
+button {
+  background: #FFF;
+  border-radius: 2em;
+  color: #000;
+  /* font-size: 15px; */
+  padding: .6em 3em;
+  border: 2px solid black;
+}
+
+button:hover {
+  background: $yellow;
+  border: 2px solid $yellow;
+  }
 

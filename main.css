@@ -100,7 +100,7 @@ h3 {
 
 .sub-heading {
   text-align: center;
-  width: 58%;
+  width: 46%;
   margin: auto; }
 
 .results-col-3 {
@@ -160,3 +160,38 @@ h3 {
     display: inline-block;
     margin: 1em;
     vertical-align: top; }
+
+.products-col-4 {
+  width: 20%;
+  display: inline-block; }
+  .products-col-4 .results-col-title {
+    margin: 1em 0; }
+  .products-col-4 ul {
+    min-width: 254px; }
+  .products-col-4 .product-circles {
+    width: 80%;
+    height: auto;
+    vertical-align: top; }
+  .products-col-4 .product-circles:hover {
+    width: 75%;
+    box-shadow: 0px 1px 16px 2px rgba(0, 0, 0, 0.53);
+    border-radius: 100%; }
+  .products-col-4 li:nth-child(4) {
+    min-height: 2em; }
+
+#recent-products {
+  padding: 8vh 0; }
+  #recent-products ul {
+    text-align: center; }
+
+button {
+  background: #FFF;
+  border-radius: 2em;
+  color: #000;
+  /* font-size: 15px; */
+  padding: .6em 3em;
+  border: 2px solid black; }
+
+button:hover {
+  background: #EACA85;
+  border: 2px solid #EACA85; }
