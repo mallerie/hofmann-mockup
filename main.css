@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+body {
+  /*background: $white;*/ }
+
+#landing {
+  background-image: url("Assets/landing-background.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 780px; }
+
+#landing-main {
+  margin: 4vh 0 0 0;
+  height: 90vh;
+  overflow: auto;
+  /*white-space: nowrap;*/ }
+
+#inner-landing {
+  margin: auto 10%;
+  height: 100vh; }
+
+nav {
+  padding: 3vh 0;
+  height: 10vh; }
+
+#navigate {
+  display: inline-block;
+  float: right; }
+
+#navigate ul {
+  display: inline-block; }
+
+#navigate ul:first-child {
+  margin: 0 6vw; }
+
+#navigate ul:first-child li {
+  margin: 0 1vw 0 0; }
+
+#navigate ul:last-child li {
+  margin: 0 1.5vw 0 0; }
+
+#navigate li {
+  color: #FFF;
+  display: inline-block; }
+
+#landing-script {
+  color: white;
+  display: inline-block;
+  width: 40%;
+  float: left;
+  margin: auto 9%; }
+
+h1 {
+  color: #F0D896;
+  /*app-yellow*/
+  margin: 18vh 0 6vh 0;
+  font-size: 61px; }
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 4vh 0; }
+
+#landing-script p:last-child {
+  font-size: 14px;
+  margin: 0 0 10vh 0; }
+
+#hero-phone {
+  max-width: 90%;
+  height: 82%;
+  position: relative;
+  top: 81px; }
+
+#app-buttons-wrapper {
+  margin: 8vh 0 0 0; }
+
+#inner-results {
+  margin: 8vh 0 0 0; }
+
+#results {
+  /*height: 66vh;*/ }
+  #results ul {
+    text-align: center;
+    margin: 1.5em 0; }
+
+#results ul li {
+  display: inline-block; }
+
+h3 {
+  text-align: center;
+  /*border: 1px solid red;*/
+  font-size: 2em;
+  margin: 1em 0; }
+
+.sub-heading {
+  text-align: center;
+  width: 58%;
+  margin: auto; }
+
+.results-col-3 {
+  width: 20%;
+  margin: 0 3%; }
+  .results-col-3 .results-col-title {
+    margin: 1em 0; }
+  .results-col-3 ul {
+    min-width: 254px; }
+
+.data-circles {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/ }
+
+/***********WHAT CLIENTS SAY***********/
+#clients-say {
+  background-image: url("Assets/client-background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 70vh;
+  height: 70vh; }
+  #clients-say #inner-clients-say {
+    width: 140vh;
+    margin: auto;
+    padding: 2vh 0; }
+
+.yellow-quote {
+  display: block;
+  margin: 0px auto; }
+
+.client-quote {
+  text-align: center;
+  margin: 1em 0; }
+  .client-quote li {
+    display: inline-block; }
+  .client-quote li:nth-child(2) {
+    width: 46vw;
+    margin: 0 6vw;
+    font-size: .9em;
+    line-height: 2; }
+
+.arrows {
+  vertical-align: top;
+  padding: 1em 0 0 0; }
+
+.text-white {
+  color: #fff; }
+
+.text-yellow {
+  color: #EACA85; }
+
+.client-info {
+  text-align: center; }
+  .client-info img {
+    display: inline-block; }
+  .client-info ul {
+    display: inline-block;
+    margin: 1em;
+    vertical-align: top; }
