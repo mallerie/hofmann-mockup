@@ -279,7 +279,7 @@ button {
   color: #000;
   /* font-size: 15px; */
   padding: .6em 3em;
-  border: 2px solid black;
+  border: 2px solid $black;
 }
 
 button:hover {
@@ -308,7 +308,7 @@ button:hover {
   button {
     display: block;
     margin: auto;
-    background: black;
+    background: $black;
     color: white;
   }
 }
@@ -325,13 +325,13 @@ button:hover {
     margin: auto;
   }
   .carousel-wrapper-two {
-    height: 100%;
-    margin: auto;
+    height: 23em;
+    margin: 0 auto;
   }
   .people-say-item {
     display: inline-block;
-    width: 45%;
-    height: 48%;
+    width: 38vw;
+    height: 32vh;
   }
   .people-1 {
     background: $yellow;
@@ -340,10 +340,35 @@ button:hover {
   }
   .people-2 {
     background: #4B4B4B;
-    margin: -1em 0em;
-
+    // margin: -1em 0em;
 
   }
+  .carousel-radio {
+    display: inline;
+    margin: 0 46%;
+    span {
+      display: inline-block;
+      margin: 0em .4em 0em 0em;
+
+      }
+      input[type='radio'] {
+        display: none;
+      }
+      input[type='radio'] + label{
+        // display: inline-block;
+        cursor: pointer;
+        padding: 0px 8px;
+        border: 2px solid #4B4B4B;
+        background: #fff;
+        color: #fff;
+        border-radius: 100%;
+      }
+      input[type='radio']:checked + label{
+        background: #4B4B4B;
+        border: 2px solid #4B4B4B;
+        color: white;
+      }  
+    }
 }
 
 

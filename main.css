@@ -205,7 +205,7 @@ button {
   color: #000;
   /* font-size: 15px; */
   padding: .6em 3em;
-  border: 2px solid black; }
+  border: 2px solid #4B4B4B; }
 
 button:hover {
   background: #EACA85;
@@ -228,7 +228,7 @@ button:hover {
   #start-selling button {
     display: block;
     margin: auto;
-    background: black;
+    background: #4B4B4B;
     color: white; }
 
 .hidden {
@@ -241,15 +241,33 @@ button:hover {
     width: 80vw;
     margin: auto; }
   #people-say .carousel-wrapper-two {
-    height: 100%;
-    margin: auto; }
+    height: 23em;
+    margin: 0 auto; }
   #people-say .people-say-item {
     display: inline-block;
-    width: 45%;
-    height: 48%; }
+    width: 38vw;
+    height: 32vh; }
   #people-say .people-1 {
     background: #EACA85;
     margin: 3em 1em; }
   #people-say .people-2 {
-    background: #4B4B4B;
-    margin: -1em 0em; }
+    background: #4B4B4B; }
+  #people-say .carousel-radio {
+    display: inline;
+    margin: 0 46%; }
+    #people-say .carousel-radio span {
+      display: inline-block;
+      margin: 0em .4em 0em 0em; }
+    #people-say .carousel-radio input[type='radio'] {
+      display: none; }
+    #people-say .carousel-radio input[type='radio'] + label {
+      cursor: pointer;
+      padding: 0px 8px;
+      border: 2px solid #4B4B4B;
+      background: #fff;
+      color: #fff;
+      border-radius: 100%; }
+    #people-say .carousel-radio input[type='radio']:checked + label {
+      background: #4B4B4B;
+      border: 2px solid #4B4B4B;
+      color: white; }
