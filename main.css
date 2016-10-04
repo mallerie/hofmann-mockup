@@ -126,6 +126,8 @@ h3 {
     width: 140vh;
     margin: auto;
     padding: 2vh 0; }
+  #clients-say ul {
+    display: inline-block; }
 
 .yellow-quote {
   display: block;
@@ -134,17 +136,20 @@ h3 {
 .client-quote {
   text-align: center;
   margin: 1em 0; }
+  .client-quote .client-button {
+    border-radius: 100%;
+    background: none;
+    border: none;
+    max-width: 12em; }
   .client-quote li {
-    display: inline-block; }
-  .client-quote li:nth-child(2) {
+    display: inline-block;
     width: 46vw;
     margin: 0 6vw;
     font-size: .9em;
     line-height: 2; }
 
 .arrows {
-  vertical-align: top;
-  padding: 1em 0 0 0; }
+  display: inline; }
 
 .text-white {
   color: #fff; }

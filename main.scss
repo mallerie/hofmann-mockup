@@ -165,6 +165,9 @@ h3 {
     margin: auto;
     padding: 2vh 0;
   }
+  ul {
+    display: inline-block;
+  }
 }
 
 .yellow-quote {
@@ -175,20 +178,27 @@ h3 {
 .client-quote {
   text-align: center;
   margin: 1em 0;
+  .client-button {
+    border-radius: 100%;
+    background: none;
+    border: none;
+    max-width: 12em;
+  }
   li {
     display: inline-block;
-  }
-  li:nth-child(2) {
     width: 46vw;
     margin: 0 6vw;
     font-size: .9em;
     line-height: 2;
   }
+  li:nth-child(2) {
+  }
 }
 
 .arrows {
-  vertical-align: top;
-  padding: 1em 0 0 0;
+  // vertical-align: top;
+  // padding: 1em 0 0 0;
+  display: inline;
 }
 
 .text-white {
