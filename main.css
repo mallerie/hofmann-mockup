@@ -126,8 +126,14 @@ h3 {
     width: 140vh;
     margin: auto;
     padding: 2vh 0; }
-  #clients-say ul {
+  #clients-say .client-text {
+    width: 46vw;
+    margin: auto;
     display: inline-block; }
+    #clients-say .client-text div {
+      margin: 1em 0; }
+  #clients-say ul {
+    display: inline; }
 
 .yellow-quote {
   display: block;
@@ -149,7 +155,7 @@ h3 {
     line-height: 2; }
 
 .arrows {
-  display: inline; }
+  display: inline-block; }
 
 .text-white {
   color: #fff; }
@@ -165,6 +171,8 @@ h3 {
     display: inline-block;
     margin: 1em;
     vertical-align: top; }
+  .client-info div {
+    display: inline-block; }
 
 .products-col-4 {
   width: 20%;
@@ -220,3 +228,6 @@ button:hover {
     margin: auto;
     background: black;
     color: white; }
+
+.hidden {
+  display: none; }
