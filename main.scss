@@ -8,7 +8,7 @@
 }
 
 $white: #fff;
-$black: #000;
+$black: #4B4B4B;
 $yellow: #EACA85;
 
 $mont-font: 'Montserrat', sans-serif;
@@ -316,4 +316,39 @@ button:hover {
 .hidden {
   display: none;
 }
+
+#people-say {
+  height: 70vh;
+  #inner-people-say {
+    height: 100%;
+    width: 80vw;
+    margin: auto;
+  }
+  .carousel-wrapper-two {
+    height: 100%;
+    margin: auto;
+  }
+  .people-say-item {
+    display: inline-block;
+    width: 45%;
+    height: 48%;
+  }
+  .people-1 {
+    background: $yellow;
+    margin: 3em 1em;
+
+  }
+  .people-2 {
+    background: #4B4B4B;
+    margin: -1em 0em;
+
+
+  }
+}
+
+
+
+
+
+
 

@@ -233,3 +233,23 @@ button:hover {
 
 .hidden {
   display: none; }
+
+#people-say {
+  height: 70vh; }
+  #people-say #inner-people-say {
+    height: 100%;
+    width: 80vw;
+    margin: auto; }
+  #people-say .carousel-wrapper-two {
+    height: 100%;
+    margin: auto; }
+  #people-say .people-say-item {
+    display: inline-block;
+    width: 45%;
+    height: 48%; }
+  #people-say .people-1 {
+    background: #EACA85;
+    margin: 3em 1em; }
+  #people-say .people-2 {
+    background: #4B4B4B;
+    margin: -1em 0em; }
