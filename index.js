@@ -1,3 +1,4 @@
+
 // CAROUSEL OBJECT
 function Carousel(containerID) {
   this.container = document.getElementById(containerID) || document.body;
@@ -55,3 +56,7 @@ Carousel.prototype.slide = function (index) {
     alert("Index " + index + " doesn't exist. Available : 0 - " + this.total);
   }
 };
+
+//CAROUSELS
+
+var clientsSay = new Carousel();
