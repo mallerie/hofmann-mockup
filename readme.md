@@ -1,8 +1,4 @@
-## Deployed using Surge
-
-`hofmann-mockup.surge.sh`
-
-## Using Sass
+s## Using Sass
 
 `node-sass <input> <ouput>`
 
