@@ -4,7 +4,8 @@
   text-decoration: none;
   list-style-type: none;
   font-family: sans-serif;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
 
 body {
   /*background: $white;*/ }
@@ -28,22 +29,23 @@ body {
 nav {
   padding: 3vh 0;
   height: 10vh; }
+  nav img {
+    width: 1.75em; }
 
 #navigate {
   display: inline-block;
   float: right; }
+  #navigate ul:last-child li {
+    margin: 0 1.5vw 0 0; }
 
 #navigate ul {
   display: inline-block; }
 
 #navigate ul:first-child {
-  margin: 0 6vw; }
-
-#navigate ul:first-child li {
   margin: 0 1vw 0 0; }
-
-#navigate ul:last-child li {
-  margin: 0 1.5vw 0 0; }
+  #navigate ul:first-child li {
+    margin: 0 2vw 0 0;
+    font-size: .75em; }
 
 #navigate li {
   color: #FFF;
@@ -55,29 +57,33 @@ nav {
   width: 40%;
   float: left;
   margin: auto 9%; }
+  #landing-script p:first-child {
+    font-size: .7em; }
 
 h1 {
   color: #F0D896;
-  /*app-yellow*/
-  margin: 18vh 0 6vh 0;
-  font-size: 61px; }
+  margin: 16vh 0 6vh 0;
+  font-size: 2.7em; }
 
 h2 {
-  font-size: 18px;
+  font-size: .9em;
   margin: 0 0 4vh 0; }
 
-#landing-script p:last-child {
-  font-size: 14px;
+#landing-script #landing-text {
+  font-size: .2em;
+  line-height: 2;
   margin: 0 0 10vh 0; }
 
 #hero-phone {
-  max-width: 90%;
-  height: 81%;
+  max-width: 89%;
+  height: 80%;
   position: relative;
   top: 94px; }
 
 #app-buttons-wrapper {
   margin: 8vh 0 0 0; }
+  #app-buttons-wrapper img {
+    width: 5.7em; }
 
 #inner-results {
   margin: 8vh 0 0 0; }
@@ -94,24 +100,31 @@ h2 {
 h3 {
   text-align: center;
   /*border: 1px solid red;*/
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 1em 0; }
 
 .sub-heading {
   text-align: center;
-  width: 46%;
-  margin: auto; }
+  width: 41%;
+  margin: auto;
+  font-size: .2em;
+  line-height: 2; }
 
 .results-col-3 {
   width: 20%;
   margin: 0 3%; }
-  .results-col-3 .results-col-title {
-    margin: 1em 0; }
   .results-col-3 ul {
     min-width: 254px; }
 
+.results-col-title {
+  margin: 1em 0;
+  font-size: .7em; }
+
+.results-col-text {
+  font-size: .6em; }
+
 .data-circles {
-  width: 100%;
+  width: 67%;
   height: auto;
   /*border: 1px solid red;*/ }
 
@@ -204,7 +217,7 @@ button {
   background: #FFF;
   border-radius: 2em;
   color: #000;
-  /* font-size: 15px; */
+  font-size: .8em;
   padding: .6em 3em;
   border: 2px solid #4B4B4B; }
 
@@ -249,7 +262,14 @@ button:hover {
     display: inline-block;
     width: 38vw;
     height: 32vh;
-    position: relative; }
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.48); }
+    #people-say .people-say-item p {
+      font-size: .7em;
+      margin: 0em 0 0 1em;
+      line-height: 2;
+      font-family: "Source Sans Pro", sans-serif; }
   #people-say .people-1 {
     background: #EACA85;
     margin: 0em 1em; }
@@ -257,7 +277,8 @@ button:hover {
     background: #4B4B4B;
     position: absolute;
     top: 4em;
-    left: 29em; }
+    left: 29em;
+    color: white; }
   #people-say .carousel-radio {
     display: inline;
     margin: 0 46%; }
@@ -277,6 +298,9 @@ button:hover {
       background: #4B4B4B;
       border: 2px solid #4B4B4B;
       color: white; }
+
+.people-name {
+  font-weight: bold; }
 
 .carousel-wrapper-two .center-quote {
   margin: 2em 47%;
@@ -308,10 +332,51 @@ button:hover {
     #get-in-touch form input, #get-in-touch form textarea {
       display: block;
       width: 12em;
-      margin: 1em auto; }
+      margin: 0em auto .7em auto; }
     #get-in-touch form button {
       margin: auto;
       display: block; }
     #get-in-touch form .inline {
       display: inline;
       width: 1em; }
+  #get-in-touch ul {
+    text-align: center; }
+    #get-in-touch ul li {
+      display: inline-block;
+      color: white; }
+
+footer {
+  height: 50vh;
+  background: #666; }
+  footer .footer-wrapper {
+    text-align: center;
+    height: 72%;
+    border-bottom: 1px solid white;
+    display: block;
+    width: 80%;
+    margin: auto; }
+    footer .footer-wrapper .footer-col-4 {
+      color: white;
+      display: inline-flex;
+      width: 20%; }
+      footer .footer-wrapper .footer-col-4 .footer-title {
+        font-weight: bold;
+        padding: 1em 0;
+        margin: 1em 0;
+        border-bottom: 1px solid white; }
+      footer .footer-wrapper .footer-col-4 li {
+        text-align: left; }
+
+.col-width {
+  width: 90%;
+  text-align: center; }
+
+#credits {
+  display: inline-block;
+  float: left; }
+  #credits p {
+    color: white; }
+
+#social-wrapper {
+  display: inline-block;
+  float: right; }
