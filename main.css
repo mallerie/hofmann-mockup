@@ -18,8 +18,7 @@ body {
 
 #landing-main {
   margin: 4vh 0 0 0;
-  height: 90vh;
-  overflow: auto;
+  height: 89vh;
   /*white-space: nowrap;*/ }
 
 #inner-landing {
@@ -75,7 +74,7 @@ h2 {
   max-width: 90%;
   height: 81%;
   position: relative;
-  top: 89px; }
+  top: 94px; }
 
 #app-buttons-wrapper {
   margin: 8vh 0 0 0; }
@@ -128,8 +127,7 @@ h3 {
     padding: 2vh 0; }
   #clients-say .client-text {
     width: 46vw;
-    margin: auto;
-    display: inline-block; }
+    margin: auto; }
     #clients-say .client-text div {
       margin: 1em 0; }
   #clients-say ul {
@@ -157,6 +155,9 @@ h3 {
     line-height: 2; }
 
 .arrows {
+  display: inline-block; }
+
+#clients-carousel {
   display: inline-block; }
 
 .text-white {
@@ -242,16 +243,21 @@ button:hover {
     margin: auto; }
   #people-say .carousel-wrapper-two {
     height: 23em;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
   #people-say .people-say-item {
     display: inline-block;
     width: 38vw;
-    height: 32vh; }
+    height: 32vh;
+    position: relative; }
   #people-say .people-1 {
     background: #EACA85;
-    margin: 3em 1em; }
+    margin: 0em 1em; }
   #people-say .people-2 {
-    background: #4B4B4B; }
+    background: #4B4B4B;
+    position: absolute;
+    top: 4em;
+    left: 29em; }
   #people-say .carousel-radio {
     display: inline;
     margin: 0 46%; }
@@ -271,3 +277,41 @@ button:hover {
       background: #4B4B4B;
       border: 2px solid #4B4B4B;
       color: white; }
+
+.carousel-wrapper-two .center-quote {
+  margin: 2em 47%;
+  display: inline; }
+
+.carousel-wrapper-two .person-img {
+  width: 22%;
+  position: absolute;
+  top: 11em;
+  left: 18em; }
+
+#get-in-touch {
+  background-image: url("assets/contact-background.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  height: 70vh; }
+  #get-in-touch h3 {
+    color: white; }
+  #get-in-touch form {
+    background: #666;
+    width: 15em;
+    margin: auto;
+    height: 16em;
+    padding: 1em 0em; }
+    #get-in-touch form input {
+      height: 3em; }
+    #get-in-touch form textarea {
+      height: 7em; }
+    #get-in-touch form input, #get-in-touch form textarea {
+      display: block;
+      width: 12em;
+      margin: 1em auto; }
+    #get-in-touch form button {
+      margin: auto;
+      display: block; }
+    #get-in-touch form .inline {
+      display: inline;
+      width: 1em; }

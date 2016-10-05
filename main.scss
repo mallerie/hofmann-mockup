@@ -30,8 +30,8 @@ body {
 
 #landing-main {
   margin: 4vh 0 0 0;
-  height: 90vh;
-  overflow: auto;
+  height: 89vh;
+  // overflow: auto;
   /*white-space: nowrap;*/
 }
 
@@ -99,7 +99,7 @@ h2 {
   max-width: 90%;
   height: 81%;
   position: relative;
-  top: 89px;
+  top: 94px;
 }
 
 #app-buttons-wrapper {
@@ -168,7 +168,7 @@ h3 {
   .client-text {
     width: 46vw;
     margin: auto;
-    display: inline-block;
+    // display: inline-block;
     div {
       margin: 1em 0;
     }
@@ -208,6 +208,10 @@ h3 {
 .arrows {
   // vertical-align: top;
   // padding: 1em 0 0 0;
+  display: inline-block;
+}
+
+#clients-carousel {
   display: inline-block;
 }
 
@@ -327,21 +331,24 @@ button:hover {
   .carousel-wrapper-two {
     height: 23em;
     margin: 0 auto;
+    position: relative;
   }
   .people-say-item {
     display: inline-block;
     width: 38vw;
     height: 32vh;
+    position: relative;
   }
   .people-1 {
     background: $yellow;
-    margin: 3em 1em;
+    margin: 0em 1em;
 
   }
   .people-2 {
     background: #4B4B4B;
-    // margin: -1em 0em;
-
+    position: absolute;
+    top: 4em;
+    left: 29em;
   }
   .carousel-radio {
     display: inline;
@@ -369,6 +376,57 @@ button:hover {
         color: white;
       }  
     }
+}
+
+.carousel-wrapper-two {
+  .center-quote {
+    margin: 2em 47%;
+    display: inline;
+  }
+  .person-img {
+    width: 22%;
+    position: absolute;
+    top: 11em;
+    left: 18em;
+  }
+}
+
+// GET IN TOUCH //////////
+
+#get-in-touch {
+  background-image: url('assets/contact-background.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  height: 70vh;
+  h3 {
+    color: white;
+  }
+  form {
+    background: #666;
+    width: 15em;
+    margin: auto;
+    height: 16em;
+    padding: 1em 0em;
+    input {
+      height: 3em;
+    }
+    textarea {
+      height: 7em;
+    }
+    input, textarea {
+      display: block;
+      width: 12em;
+      margin: 1em auto;
+    }
+    button {
+      margin: auto;
+      display: block;
+    }
+    .inline {
+      display: inline;
+      width: 1em;
+    }
+  }
 }
 
 

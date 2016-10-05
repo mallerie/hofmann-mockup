@@ -59,4 +59,5 @@ Carousel.prototype.slide = function (index) {
 
 //CAROUSELS
 
-var clientsSay = new Carousel();
+var clientsSay = new Carousel("clients-carousel");
+var peopleSay = new Carousel("people-carousel");
