@@ -165,6 +165,26 @@ h3 {
   margin: 0 3%;
   ul {
     min-width: 254px;
+    li {
+      position: relative;
+      p:first-child {
+        position: absolute;
+        top: .8em;
+        left: 1.2em;
+        font-size: 3em;
+        z-index: 1;
+        color: $black;
+      }
+      p:nth-child(2) {
+        position: absolute;
+        z-index: 1;
+        font-size: 1.5em;
+        top: 2.6em;
+        left: 4.6em;
+        color: $black;
+
+      }
+    }
   }
 }
 
@@ -477,9 +497,11 @@ button:hover {
   }
   ul {
     text-align: center;
+    margin: 3em;
     li {
       display: inline-block;
       color: white;
+      margin: 1em;
     }
   }
 }
@@ -500,6 +522,8 @@ footer {
       color: white;
       display: inline-flex;
       width: 20%;
+      font-size: .7em;
+      line-height: 2;
       .footer-title {
         font-weight: bold;
         padding: 1em 0;
@@ -508,6 +532,7 @@ footer {
       }
       li {
         text-align: left;
+        font-size: .7em;
       }
     }
   }
